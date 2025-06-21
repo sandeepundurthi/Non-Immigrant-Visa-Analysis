@@ -56,6 +56,6 @@ This project explores patterns in F1 (student) and H-1B (employment) visa applic
 - BeautifulSoup, FuzzyWuzzy
 
 ## 📌 Author
-**Kartik Thakkar**  
+**Sandeep Undurthi**  
 Utah State University, Department of Computer Science  
-[thakkarkartik30@gmail.com](mailto:thakkarkartik30@gmail.com)
+[sandy.undurthi@gmail.com](mailto:sandy.undurthi@gmail.com)
