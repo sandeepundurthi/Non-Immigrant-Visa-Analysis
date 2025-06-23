@@ -1,3 +1,14 @@
+---
+title: Restaurant Review Sentiment Analysis
+emoji: 🍽️
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.25.0"
+app_file: app/gradio_app.py
+pinned: false
+---
+
 # 🍽️ Restaurant Review Sentiment Analysis
 
 This project performs sentiment analysis on restaurant reviews using Natural Language Processing (NLP) and multiple machine learning models. The best-performing model (SVM with 96% accuracy) is deployed using a Gradio web app for real-time predictions.
@@ -11,16 +22,18 @@ This project performs sentiment analysis on restaurant reviews using Natural Lan
 
 ## 📁 Folder Structure
 
+```
 restaurant-review-sentiment/
-├── data/                      # Raw dataset (CSV)
-├── models/                   # Saved ML model and vectorizer
+├── data/
+├── models/
 │   └── sentiment_model.pkl
-├── notebook/                 # Training and evaluation notebook
+├── notebook/
 │   └── sentiment_analysis.ipynb
 ├── app/
-│   └── gradio_app.py         # Gradio interface
+│   └── gradio_app.py
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 Run Locally
 
@@ -39,3 +52,4 @@ python app/gradio_app.py
 | Logistic Regression| 92.0%    |
 | SVM (selected)     | ⭐ 96.0% |
 | Random Forest      | 91.7%    |
+
