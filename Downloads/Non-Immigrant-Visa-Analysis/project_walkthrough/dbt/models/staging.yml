@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: feature_selection
+    description: "Selects relevant columns from the raw data table to create a structured dataset for further transformations."
+
+  - name: education_encoding
+    description: "Encodes education levels from categorical to numerical values for easier processing."
+
+  - name: employer_age
+    description: "Calculates the age of the employer based on the year the business was established."
+
+  - name: binning
+    description: "Bins wages into categories and categorizes company size based on the number of employees."

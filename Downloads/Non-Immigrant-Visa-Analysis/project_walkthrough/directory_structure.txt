@@ -1,0 +1,117 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 7638-B8CD
+C:.
+|   .gitignore
+|   directory_structure.txt
+|   
++---data
+|       perm_23_q4.xlsx
+|       
++---dbt
+|   |   dbt_project.yml
+|   |   README.md
+|   |   
+|   +---analyses
+|   |       .gitkeep
+|   |       
+|   +---logs
+|   |       dbt.log
+|   |       
+|   +---macros
+|   |       .gitkeep
+|   |       
+|   +---models
+|   |   |   .yml
+|   |   |   sources.yml
+|   |   |   staging.yml
+|   |   |   transforming.yml
+|   |   |   
+|   |   +---staging
+|   |   |       binning.sql
+|   |   |       education_encoding.sql
+|   |   |       employer_age.sql
+|   |   |       feature_selection.sql
+|   |   |       
+|   |   \---transforming
+|   |           convert_yes_no.sql
+|   |           dim_transformed.sql
+|   |           target_class.sql
+|   |           
+|   +---seeds
+|   |       .gitkeep
+|   |       
+|   +---snapshots
+|   |       .gitkeep
+|   |       
+|   +---target
+|   |   |   catalog.json
+|   |   |   graph.gpickle
+|   |   |   graph_summary.json
+|   |   |   index.html
+|   |   |   manifest.json
+|   |   |   partial_parse.msgpack
+|   |   |   run_results.json
+|   |   |   semantic_manifest.json
+|   |   |   sources.json
+|   |   |   
+|   |   +---compiled
+|   |   |   \---project_walkthrough
+|   |   |       \---models
+|   |   |           |   target_class.sql
+|   |   |           |   
+|   |   |           +---example
+|   |   |           |   |   my_first_dbt_model.sql
+|   |   |           |   |   my_second_dbt_model.sql
+|   |   |           |   |   
+|   |   |           |   \---schema.yml
+|   |   |           |           unique_my_first_dbt_model_id.sql
+|   |   |           |           
+|   |   |           +---staging
+|   |   |           |       binning.sql
+|   |   |           |       education_encoding.sql
+|   |   |           |       employer_age.sql
+|   |   |           |       feature_selection.sql
+|   |   |           |       load_data.sql
+|   |   |           |       
+|   |   |           \---transforming
+|   |   |                   convert_yes_no.sql
+|   |   |                   dim_transformed.sql
+|   |   |                   major_match.sql
+|   |   |                   target_class.sql
+|   |   |                   
+|   |   \---run
+|   |       \---project_walkthrough
+|   |           \---models
+|   |               |   target_class.sql
+|   |               |   
+|   |               +---example
+|   |               |       my_first_dbt_model.sql
+|   |               |       my_second_dbt_model.sql
+|   |               |       
+|   |               +---staging
+|   |               |       binning.sql
+|   |               |       education_encoding.sql
+|   |               |       employer_age.sql
+|   |               |       feature_selection.sql
+|   |               |       load_data.sql
+|   |               |       
+|   |               \---transforming
+|   |                       convert_yes_no.sql
+|   |                       dim_transformed.sql
+|   |                       major_match.sql
+|   |                       target_class.sql
+|   |                       
+|   \---tests
+|           .gitkeep
+|           
++---logs
+|       dbt.log
+|       
++---notebooks
+|       EDA_transformation.ipynb
+|       prediction.ipynb
+|       
+\---scripts
+        load_xlsx_to_postgres.py
+        state_country_transform.ipynb
+        

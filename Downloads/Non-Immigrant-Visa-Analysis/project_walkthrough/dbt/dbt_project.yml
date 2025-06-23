@@ -1,0 +1,23 @@
+name: 'project_walkthrough'
+version: '1.0.0'
+config-version: 2
+
+profile: 'project_walkthrough'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  project_walkthrough:
+    staging:
+      +materialized: table
+    transforming:
+      +materialized: table

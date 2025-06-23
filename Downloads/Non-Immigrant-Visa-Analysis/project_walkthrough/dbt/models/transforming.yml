@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_transformed
+    description: "Final dimension table combining transformed data and binning data with no duplicate columns."
+
+  - name: convert_yes_no
+    description: "Converts yes/no columns to numeric values (0/1) for machine learning."
+
+  - name: target_class
+    description: "Transforms the target column 'CASE_STATUS' to binary classification (0/1)."

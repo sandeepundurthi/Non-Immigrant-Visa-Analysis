@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: visa_project
+    database: visa_project
+    schema: public
+    tables:
+      - name: raw_data
+        description: "Raw data loaded from the Excel file"
+      - name: state_country_encoded
+        description: "State and country encoded file with major_match column. Created from the python manipulation on intermediate model result 'binning'"
